@@ -36,6 +36,6 @@ if __name__ == '__main__':
 
     brr = list(map(int, input().rstrip().split()))
 
-    total = getTotalX(arr, brr)
+    result = getTotalX(arr, brr)
 
-    print(str(total) + '\n')
+    print(str(result) + '\n')

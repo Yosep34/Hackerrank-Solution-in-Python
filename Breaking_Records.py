@@ -15,10 +15,14 @@ def breakingRecords(scores):
         if i < Min:
             Min = i
             min_count += 1
+            
     return max_count, min_count
 
-n = int(input())
-scores = list(map(int, input().rstrip().split()))
-result = breakingRecords(scores)
-print(' '.join(map(str, result)))
-print('\n')
+
+
+if __name__ == "__main__": 
+    n = int(input())
+    scores = list(map(int, input().rstrip().split()))
+    result = breakingRecords(scores)
+    print(f'{result})))
+    print('\n')
